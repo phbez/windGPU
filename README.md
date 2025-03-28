@@ -1,9 +1,5 @@
 # windGPU
-Wind Turbine Blades
-
-````markdown
-# filepath: [README.md](http://_vscodecontentref_/3)
-# Wind Turbine Blade Fault Detection Model
+Wind Turbine Blade Fault Detection Model
 
 ## Overview
 A CNN-based model for detecting faults in small wind turbine blades using image classification.
@@ -50,9 +46,9 @@ prediction = model.predict(preprocessed_image)
 ```
 
 ## Files Included
-- [modeloCAI.keras](http://_vscodecontentref_/4): Trained model weights
-- [CAImodel.json](http://_vscodecontentref_/5): Model architecture
-- [datasetCAI.csv](http://_vscodecontentref_/6): Training history
+- `modeloCAI.keras` - Trained model weights and parameters
+- `CAImodel.json` - Model architecture configuration
+- `datasetCAI.csv` - Training history and metrics data
 
 ## Requirements
 - TensorFlow 2.x
