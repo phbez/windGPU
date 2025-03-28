@@ -19,3 +19,45 @@ Thumbs.db
 
 # Ignore logs and temporary files
 *.log
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Dataset and temporary files
+data/
+data1/
+dataset.zip
+*.tmp
+
+# Keras/TensorFlow
+*.h5
+*.hdf5
+*.ckpt
+checkpoint
+model.ckpt.*
